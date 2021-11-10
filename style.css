@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+*{
+        font-family: 'Red Hat Display';
+}
+
+body{
+        background-image: url("./images/pattern-background-desktop.svg");
+        background-repeat: no-repeat;
+        background-size: auto;
+        display: flex;
+        flex-direction: column;   
+        align-items: center;        
+}
+
+.card{
+        margin-top: 100px;;
+        width: 450px;
+        height: 700px;
+        display: flex;
+        flex-direction: column;   
+        align-items: center;        
+        background-color:white;
+        border-radius: 25px;
+        box-shadow: 0px 10px 5px rgb(245, 245, 245);
+}
+
+.header {
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+}
+
+.content{
+        display: flex;
+        flex-direction: column;
+}
+
+.title{
+        font-weight: 900;
+        font-size: 25px;
+        margin-top: 50px;;
+        text-align: center;
+        text-justify: inter-word;
+        width: 350px;
+}
+
+.description{
+        color: hsl(224, 23%, 55%);
+        padding-top: 20px;
+        width: 350px;
+        text-align: center;
+        text-justify: inter-word;
+        font-size: 16px;
+}
+
+.plan {
+        width: 300px;
+        margin: 15px;
+        padding: 25px;
+        border-radius: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: hsl(225, 100%, 98%);
+}
+
+.information{
+        margin-left: -70px;
+}
+
+.change{
+        font-weight: bold;
+        font-size: 14px;
+        color: hsl(245, 75%, 52%);
+}
+
+.change:hover{
+        color: hsl(245, 75%, 52%, 0.5);
+        text-decoration: none;
+}
+
+.type{
+        font-weight: bold;
+}
+
+.price{
+        
+        color: hsl(224, 23%, 55%);
+}
+
+.paymentBtn{
+        margin-top: 20px;
+        background-color: hsl(245, 75%, 52%);
+        font-weight: 900;
+        box-shadow: 0px 10px 50px -10px hsl(224, 23%, 55%);
+        color: hsl(225, 100%, 94%);
+        border: none;
+        border-radius: 10px;
+        width: 350px;
+        padding: 15px;
+}
+
+.paymentBtn:hover{
+        background-color: hsl(245, 75%, 52%, 0.5);
+        cursor: pointer;
+}
+
+.cancelBtn{
+        font-weight: 700;
+        color: hsl(224, 23%, 55%);
+        border: none;
+        background-color: transparent;
+        margin-top: 30px;
+}
+
+.cancelBtn:hover{
+        color: hsl(223, 47%, 23%);
+        cursor: pointer;
+}
+
