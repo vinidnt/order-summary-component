@@ -26,12 +26,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot/order-summary-360x640.JPG)
-![](./screenshot/order-summary-750-850.JPG)
+![Mobile 360x640](./screenshot/order-summary-360x640.JPG)
+![Desktop 750x850](./screenshot/order-summary-750-850.JPG)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://vinidnt.github.io/order-summary-component/)
+- Solution URL: [Order Summary Component](https://vinidnt.github.io/order-summary-component/)
 
 ## My process
 
@@ -44,4 +44,4 @@ Users should be able to:
 ## Author
 
 - Website - [Vinicius Dantas](https://github.com/vinidnt)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/vinidnt)
+- Frontend Mentor - [@vinidnt](https://www.frontendmentor.io/profile/vinidnt)
